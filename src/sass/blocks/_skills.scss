@@ -1,0 +1,66 @@
+.skills{
+    min-height: 658px;
+    padding: 0 0 123px 0;
+    &__title{
+        font-weight: 600;
+        text-align: center;
+        font-size: 40px;
+        text-transform: uppercase;
+        color: #3C4761;
+    }
+    &__subtitle{
+        margin-top: 48px;
+        color: #3C4761;
+        text-align: center;
+        font-size: 18px;
+        color: #000;
+    }
+    &__text{
+        font-size: 24px;
+        color:#3C4761;
+        font-weight: 700;
+    }
+}
+
+.bg-style {
+    margin-top: 72px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .counter {
+    display: inline-flex;
+    cursor:pointer;
+    width:150px;
+    height:150px;
+    max-width:100%;
+    position:relative;
+    justify-content:center;
+    align-items:center;
+    font-size: 25px;
+    font-weight: 500;
+    transition: height .2s ease-in-out;
+    background: #fff;
+    border-radius:50%;
+  }
+  .percentage {
+    position:absolute;
+    text-align:center;
+    top:50%;
+    left:0;
+    right:0;
+    vertical-align:middle;
+    transform:translate3d(0,-50%,0);
+  }
+  canvas {
+    position:absolute;
+    top:0;
+    left:0;
+  }
+  
+  body {
+    text-align:center;
+  }
+
+
+

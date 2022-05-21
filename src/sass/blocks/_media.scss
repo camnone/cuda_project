@@ -1,0 +1,548 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .promo {
+        &__img {
+            margin-right: 400px;
+        }
+
+        &__title {
+            font-size: 36px;
+        }
+    }
+
+    .services {
+        &__title {
+            font-size: 36px;
+        }
+    }
+
+    .team {
+        &__title {
+            font-size: 36px;
+        }
+
+        &__wrapper {
+            flex-wrap: wrap;
+        }
+    }
+
+    .skills {
+        &__title {
+            font-size: 36px;
+        }
+    }
+
+    .portfolio {
+        &__title {
+            font-size: 36px;
+        }
+
+        &__contect {
+            justify-content: center;
+        }
+    }
+
+    .about {
+        &__title {
+            font-size: 36px;
+        }
+
+        &__wrapper {
+            grid-template-columns: repeat(2, minmax(400px, auto));
+            justify-content: center;
+        }
+    }
+
+    .contacts {
+        &__title {
+            font-size: 36px;
+        }
+
+        &__form {
+            grid-template-columns: repeat(2, minmax(417px, auto));
+            justify-content: center;
+        }
+    }
+
+    .footer{
+        &__wrapper{
+            display: flex;
+            justify-content: space-evenly;
+        }
+    }
+
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .promo {
+        &__img {
+            margin-right: 200px;
+        }
+
+        &__title {
+            font-size: 30px;
+            line-height: 44px;
+        }
+    }
+
+    .services {
+        &__wrapper {
+            flex-wrap: wrap;
+        }
+
+        &__papper {
+            margin-top: 30px;
+        }
+
+        &__title {
+            font-size: 30px;
+        }
+
+    }
+
+    .team {
+        &__wrapper {
+            flex-wrap: wrap;
+        }
+
+        &__title {
+            font-size: 30px;
+        }
+
+        &__papper {
+            margin-top: 30px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .logo {
+            width: 40px;
+            height: 40px
+        }
+    }
+
+    .skills {
+
+        &__title {
+            font-size: 30px;
+        }
+
+        &__wrapper {
+            flex-wrap: wrap;
+        }
+    }
+
+    .portfolio {
+
+        &__title {
+            font-size: 30px;
+        }
+
+        &__img {
+            width: 80%;
+        }
+    }
+
+    .about {
+        &__title {
+            font-size: 30px;
+        }
+
+        &__wrapper {
+            grid-template-columns: repeat(2, minmax(400px, auto));
+            justify-content: center;
+        }
+    }
+
+    .contacts {
+        &__title {
+            font-size: 30px;
+        }
+
+        &__form {
+            grid-template-columns: repeat(2, minmax(336px, auto));
+        }
+
+    }
+    .footer{
+        &__name{
+            a{
+                font-size: 20px;
+            }
+        }
+    }
+
+}
+
+
+
+
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 570px;
+    }
+
+    .promo {
+
+        &__img {
+            margin-right: 1px;
+        }
+
+        &__list {
+            li {
+                a {
+                    padding: 0 10px;
+                }
+            }
+
+        }
+
+        &__title {
+            font-size: 22px;
+            line-height: 37px;
+        }
+    }
+
+    .services {
+        &__title {
+            font-size: 22px;
+        }
+
+        &__subtitle {
+            font-size: 13px;
+        }
+
+        &__text {
+            font-size: 23px;
+        }
+
+        &__subtext {
+            font-size: 18px;
+        }
+    }
+
+    .team {
+        &__title {
+            font-size: 23px;
+        }
+
+        &__subtitle {
+            font-size: 18px;
+        }
+
+        &__papper {
+            margin-top: 30px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .logo {
+            width: 40px;
+            height: 40px
+        }
+
+        &__wrapper {
+            justify-content: space-between;
+        }
+    }
+
+    .skills {
+        &__title {
+            font-size: 23px;
+        }
+
+        &__subtitle {
+            font-size: 18px;
+        }
+
+        .bg-style {
+            margin-top: 20px;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            div {
+                margin-top: 20px;
+            }
+        }
+
+        .footer {
+            &__name {
+                font-size: 20px;
+            }
+        }
+
+    }
+
+    .portfolio {
+
+        &__descr {
+            font-size: 23px;
+        }
+
+        &__descr {
+            font-size: 18px;
+        }
+
+        &__tabs {
+            flex-wrap: wrap;
+        }
+    }
+
+    .about {
+        &__wrapper {
+            grid-template-columns: minmax(400px, auto);
+            row-gap: 76px;
+        }
+
+        &__title {
+            font-size: 23px;
+        }
+
+        &__subtitle {
+            font-size: 18px;
+        }
+
+        &__text {
+            font-size: 16px;
+        }
+
+        &__name {
+            font-size: 18px;
+        }
+
+        &__info {
+            font-size: 13px;
+        }
+
+    }
+
+    .contacts {
+        &__title {
+            font-size: 23px;
+        }
+
+        &__descr {
+            font-size: 18px;
+        }
+
+        &__form {
+            grid-template-columns: repeat(2, minmax(250px, auto));
+        }
+
+    }
+    .footer{
+        &__name{
+            a{
+                font-size: 15px;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+
+    .promo {
+        &__wrapper {
+            justify-content: center;
+        }
+        &__nav{
+            justify-content: center;
+        }
+
+        &__img{
+            display: none;
+        }
+        &__list{
+            li{
+                a{
+                    font-size: 13px;
+                }
+            }
+        }
+
+        &__title {
+            font-size: 14px;
+
+        }
+
+        &__btn {
+            width: 240px;
+            height: 47px;
+        }
+    }
+
+    .services {
+        &__title {
+            font-size: 18px;
+        }
+
+        &__subtitle {
+            font-size: 12px;
+        }
+
+        &__text {
+            font-size: 20px;
+        }
+
+        &__subtext {
+            font-size: 15px;
+        }
+
+        &__wrapper {
+            justify-content: space-evenly;
+        }
+    }
+
+    .team {
+        &__title {
+            font-size: 18px;
+        }
+
+        &__subtitle {
+            font-size: 15px;
+        }
+
+        &__papper {
+            margin-top: 30px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .logo {
+            width: 40px;
+            height: 40px
+        }
+
+        &__wrapper {
+            justify-content: space-evenly;
+        }
+    }
+
+    .skills {
+        &__title {
+            font-size: 18px;
+        }
+
+        &__subtitle {
+            font-size: 15px;
+        }
+
+        .bg-style {
+            margin-top: 20px;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+
+            div {
+                margin-top: 20px;
+            }
+        }
+
+        &__text {
+            font-size: 20px;
+        }
+
+    }
+    .portfolio {
+        &__btn {
+            width: 240px;
+            height: 47px;
+        }
+    
+
+
+    &__wrapper {
+        width: 100%;
+    }
+
+    &__title {
+        font-size: 23px;
+    }
+
+    &__descr {
+        font-size: 18px;
+    }
+
+    &__tabs {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    }
+
+    .about {
+        &__wrapper {
+            grid-template-columns: minmax(200px, auto);
+            row-gap: 76px;
+        }
+
+        &__title {
+            font-size: 23px;
+        }
+
+        &__subtitle {
+            font-size: 18px;
+        }
+
+        &__text {
+            font-size: 12px;
+        }
+
+        &__name {
+            font-size: 18px;
+        }
+
+        &__info {
+            font-size: 13px;
+        }
+
+    }
+
+    .contacts {
+        &__btn {
+            width: 240px;
+            height: 47px;
+
+        }
+
+        &__title {
+            font-size: 23px;
+        }
+
+        &__descr {
+            font-size: 18px;
+        }
+
+        &__form {
+            grid-template-columns: repeat(2, minmax(135px, auto));
+        }
+    }
+    .footer{
+        &__name{
+            a{
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+
+    
